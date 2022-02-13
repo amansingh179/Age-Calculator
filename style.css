@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Baloo Bhaijaan 2', cursive;
+}
+body::after{
+    content: "";
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+    z-index: -1;
+    top: 0;
+    background:url("bg.webp") no-repeat ;
+    background-size: cover;
+}
+.container{
+    display: inline-block;
+    box-shadow: 3px 11px 20px 2px;;
+    position: absolute;
+    width: 35%;
+    height: 60%;
+    top: 25%;
+    left: 33%;
+    
+}
+.selectDate{
+    display: flex;
+    margin: 18px 8px;
+    justify-content: center;
+}
+input{
+    font-size: 30px;
+    padding:8px;
+    border-radius: 25px;
+}
+button:hover,input:hover{
+    cursor: pointer;
+    zoom: 110%;
+    background-color: rgb(189, 245, 245);
+}
+.button button{   
+    font-size: 32px;
+    padding: 8px;
+    margin: 6px;    
+    border-radius: 25px;
+    border: none;
+    font-family: 'Baloo Bhaijaan 2', cursive;
+}
+.button{
+    margin: 8px;
+}
+.displaying{
+    margin-top: 70px;
+    display:flex;
+    justify-content: space-around;
+}
+.box{
+    display: flex;
+    height: 150px;
+    width: 140px;
+    border-radius: 25px;
+    background-color: black;
+    color: white;
+    border: 2px solid black;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0px 40px 0;
+
+}
+
+.displaying p{
+    font-size: 30px;
+}
+.displaying span{
+    font-weight: bold;
+    font-size: 50px;
+}
+footer{
+    width: 100%;
+    background-color: black;
+    position: absolute;
+    bottom: 0;
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    padding: 8px 0px;
+}
